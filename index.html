@@ -1646,9 +1646,9 @@
 
           <div class="ci-gallery-item">
             <div class="ci-gallery-item-photo">
-              <img src="./img/aswin.jpg" alt="Aswin Ramesh" />
+              <img src="./img/aswin.jpg" alt="Ashwin Ramesh" />
               <div class="ci-gallery-item-photo-overlay"></div>
-              <div class="ci-gallery-item-photo-details">Aswin Ramesh</div>
+              <div class="ci-gallery-item-photo-details">Ashwin Ramesh</div>
               <span class="ci-arrow"></span>
             </div>
             <div class="ci-gallery-item-content">
@@ -1663,7 +1663,7 @@
                 you will do well.
               </p>
               <div class="ci-author-details">
-                <p class="text-muted">@Aswin Ramesh</p>
+                <p class="text-muted">@Ashwin Ramesh</p>
                 <p>
                   CEO of <a class="ci-link" href="https://synup.com/">Synup</a>
                 </p>
@@ -1683,6 +1683,7 @@
       var item = $(".ci-gallery-item");
 
       item.click(function(e) {
+        var p = $(this).offset();
         var height = $(this)
           .children(".ci-gallery-item-content")
           .outerHeight();
@@ -1718,7 +1719,13 @@
             $(this).animate({ "margin-bottom": height }, 400);
           }
         }
+        console.log(p.top)
+        if(p.top > 200){
+            $(this).top(100)
+        }
+
       });
+
 
       $(document).scroll(function() {
         if ($(document).scrollTop() > 5) {
