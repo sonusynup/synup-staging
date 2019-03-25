@@ -1,0 +1,970 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="../../favicon.ico">
+    <title>Career insights</title>
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=1, minimum-scale=0.5, maximum-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Synup, one dashboard to make local marketing easier. All your listings, reviews and keyword rankings all on one platform without having to log in to all your various accounts.">
+    <meta name="author" content="Synup Local Marketing Software">
+
+    
+    <link rel="stylesheet" href="https://synup.com/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://synup.com/css/main.css" />
+    <link rel="stylesheet" href="https://synup.com/css/style.css" />
+    <link rel="stylesheet" href="career-insights.css" />
+    <link rel="stylesheet" href="https://synup.com/css/media-queries.css" />
+    <link href='//fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://synup.com/js/jquery-1.11.2.min.js"></script>
+    <script src="https://synup.com/js/bootstrap.min.js"></script>
+    <!-- <script type='text/javascript' src="js/bootstrap-slider.js"></script> -->
+    <!-- Unique ID cookie -->
+    <script>
+      $(function(){
+        $("#footer").load("footer.html");
+    });
+</script>
+<!-- <script src="https://use.typekit.net/qrh8das.js"></script> -->
+     
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/3d44fe6541.js"></script>
+
+   <!--  Github :: <a target="_blank" href=""><i class="fa fa-github-alt" aria-hidden="true"></i></a> -->
+   <!-- Twitter :: <a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
+   <!-- LinkedIn :: <a target="_blank" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+
+
+
+    <!-- Custom Sytles -->
+
+    <style type="text/css">
+
+        body {
+            background-color: #0073B0;
+        }
+
+        .navbar-brand {
+            height: 55px !important;
+        }
+
+        header {
+            padding-top: 0px;
+        }
+
+        section {
+            min-height: 700px;
+            padding-bottom: 5%;
+        }
+
+        .alt {
+            background-color: white;
+        }
+
+        .banner {
+            padding-top: 200px;
+            background-image: url('./images/about_banner.png');
+            background-size: cover;
+        }
+
+        .banner img {
+            height: 120px;
+            margin-bottom: 20px;
+        }
+
+        .banner h2 {
+            font-size: 45px;
+            color: white;
+            font-weight: bold;
+            font-family: 'Montserrat', 'serif';
+            line-height: 50px;
+        }
+
+        .navbar-header h1 {
+            line-height: 65px;
+        }
+
+        section h3 {
+            font-family: 'Montserrat', 'serif';
+            font-size: 36px;
+            margin-top: 50px;
+            color: #F2F3F4;
+        }
+
+        .alt h3 {
+            color: #0073B0;
+        }
+
+        section p {
+            font-family: 'Raleway', 'serif';
+            font-size: 20px;
+            line-height: 30px;
+            text-align: justify;
+        }
+
+        #about-us-counter .counter-part {
+            background: url(/images/counter-image.png) no-repeat;
+            height: 50px;
+            width: 225px;
+        }
+
+        #about-us-counter .counter-part .count-num {
+            padding: 5px;
+            color: #fff;
+            /* font-family: "AvenirNextLTPro"; */
+            font-family: "Avenir Next W01", sans-serif;
+            text-shadow: 0 1px 2px #000;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.59em;
+            margin-left: 9px;
+            margin-top: 5px;
+            line-height: 40px;
+        }
+
+        .text-box {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        #intro {
+            background-image: url('./images/about_us_intro.png');
+            background-size: cover;
+        }
+
+        #culture {
+            color: #F2F3F4;
+            background-image: url('./images/about_us_culture.png');
+            background-size: cover;
+        }
+
+        #team .row {
+            padding-bottom: 2%;
+        } 
+
+        .team-member-container {
+            overflow: hidden;
+            height: 420px;
+        }
+
+        .team-member {
+            position: relative;
+            background-color: #FFF;
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            min-height: 200px;
+            padding: 5%;
+            padding-top: 10%;
+            border-radius: 5%;
+            text-align: center;
+            margin-bottom: 2%;
+            cursor: default;
+            z-index: 1;
+            margin-top: -40px;
+        }
+
+
+        .hobby_list {
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 2%;
+            position: relative;
+            /*z-index: -1;*/
+
+        }
+
+
+        .team-member:hover {
+            /*box-shadow: 0 16px 34px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+             box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+        }
+
+        .team-member a {
+            font-family: 'Montserrat', 'Arial';
+            font-size: 20px;
+        }
+
+        .team-member p {
+            font-family: 'Montserrat', 'Arial';
+            cursor: default;
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+        }
+
+        .team-member h4 {
+            font-size: 20px;
+            font-family: 'Montserrat', 'Arial';
+        }
+
+        .team-member ul li {
+            font-family: 'Montserrat', 'Arial';
+            font-size: 16px;
+        }
+
+        #team-member-name {
+            color: #0073B0;
+        }
+
+
+        .role h4 {
+            font-size: 16px;
+        }
+
+        #real_role {
+            color: #0073B0;
+            display: none;
+        }
+
+        .img_box {
+            height: 140px;
+            /*    display: table-cell;
+            vertical-align: middle;
+            text-align: center;*/
+        }
+
+        .img_box img {
+            margin: auto;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        #view_jobs {
+            margin-top: 5%;
+            text-align: center;
+            color: #333;
+        }
+
+        #view_jobs p {
+            font-size: 30px;
+        }
+
+        #view_jobs {
+            margin-top: 20px;
+            max-width: 300px;
+            font-size: 30px;
+            font-weight: bold;
+            border-style: solid;
+            padding: 6px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .social_icons {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .social_icons ul {
+            padding-right: 4%;
+            padding-left: 4%;
+        }
+
+        .social_icons ul li {
+            display: inline;
+            list-style-type: none;
+            padding: 10%;
+        }
+
+        .social_icons ul li .fa {
+            font-size: 20px;
+        }
+
+        .hobby_list ul {
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+
+        .hobby_list ul li {
+            display: inline;
+            list-style-type: none;
+            padding: 5%;
+        }
+
+        .hobby_list ul li img {
+            height: 30px;
+
+        }
+
+        .fa-twitter, .fa-linkedin, .fa-github-alt, .fa-angellist {
+            display: none;
+            color: #333;
+        }
+
+        #hiring {
+            background-color: #F9BF3B;
+            /*background-color: #FFDF79;*/
+        }
+
+        #hiring h3 {
+            color: #333;
+        }
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+    #intro, #culture {
+        background-image: none;
+    }
+/*
+    .navbar {
+        background-color: #FFF;
+    }*/
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+
+/*    .navbar {
+        background-color: #FFF;
+    }*/
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+    #intro, #culture {
+        background-image: none;
+    }
+
+/*    .navbar {
+        background-color: #FFF;
+    }
+*/}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+
+/*    .navbar {
+        background-color: #FFF;
+    }*/
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+/*    .navbar {
+        background-color: #FFF;
+    }*/
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+/*    .navbar {
+        background-color: #FFF;
+    }*/
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+/*    .navbar {
+        background-color: #FFF;
+    }*/
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+    #intro, #culture {
+        background-image: none;
+    }
+
+/*    .navbar {
+        background-color: #FFF;
+    }*/
+}                        
+
+
+/*      @keyframes strike {
+            0%   { width : 0; }
+            100% { width: 100%; }
+        }
+
+        .strike {
+            position: relative;
+        }
+
+        .strike:after {
+            content: ' ';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: black;
+            animation-name: strike;
+            animation-duration: 0.4s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards; 
+        }*/
+
+    .dropdown-menu {
+        padding: 1em;
+        width: 15em;
+        border-radius: 10px;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+
+    a.dropdown-item {
+        color: #303030;
+        font-size: 0.8em;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        line-height: 3em;
+    }
+
+    a.dropdown-item:hover {
+        color: black;
+    }
+
+    .nav .open>a:hover, .nav .open>a {
+        background-color: transparent !important;
+        color: #FFFFFF;
+    }
+
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".team-member").hover(function(){
+                $(this).find(".fa-twitter").show();
+                $(this).find(".fa-linkedin").show();
+                $(this).find(".fa-github-alt").show();
+                $(this).find(".fa-angellist").show();
+            },
+            function(){
+                $(this).find(".fa-twitter").hide();
+                $(this).find(".fa-linkedin").hide();
+                $(this).find(".fa-github-alt").hide();   
+                $(this).find(".fa-angellist").hide();             
+            });
+
+            $(".fa-twitter").hover(function(){
+                $(this).css('color','#1DA1F3');
+            },
+            function(){
+                $(this).css('color','#333');
+            });
+
+            $(".fa-linkedin").hover(function(){
+                $(this).css('color','#0274B3');
+            },
+            function(){
+                $(this).css('color','#333');
+            });
+
+            $(".fa-github-alt").hover(function(){
+                $(this).css('color','#6cc644');
+            },
+            function(){
+                $(this).css('color','#333');
+            });
+            $(".fa-angellist").hover(function(){
+                $(this).css('color','#C4C4C4');
+            },
+            function(){
+                $(this).css('color','#333');
+            });
+
+            $(".team-member").hover(function(){
+                $(this).css('margin-top','0px');
+            },
+            function(){
+                $(this).css('margin-top','-40px');
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+        <header id="head">
+            <div class="navbar-wrapper" id="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <nav id="primary-nav" class="navbar navbar-primary">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button id="mask_overlay" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                        <!-- <span class="sr-only">Toggle navigation</span> -->
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+
+                                    <div class="button hidden-sm hidden-md hidden-lg">
+                                        <a href="https://synup.com/scan-tool">
+                                            <button type="button" class="btn btn-success">run free scan now</button>
+                                        </a>
+                                    </div>
+
+                                    <h1><a class="navbar-brand" href="index.html">Synup</a></h1>
+                                </div>
+                                <div id="navbar" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  Solutions <span class="caret"></span>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="https://synup.com/single-location">SMALL BUSINESS</a>
+                                                <br>
+                                                <a class="dropdown-item" href="https://synup.com/multi-location">ENTERPRISE</a>
+                                                <br>
+                                                <a class="dropdown-item" href="https://synup.com/agency">MARKETING AGENCY</a>
+                                            </div>
+                                        </li>
+                                        <!-- <li class="link"><a href="/features">Features</a></li> -->
+                                        <!-- <li class="link"><a href="/pricing">Pricing</a></li> -->
+                                        <li class="link"><a href="/about">About</a></li>
+                                        <!-- <li class="link"><a href="/contact">Contact</a></li> -->
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  Resources <span class="caret"></span>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="https://synup.com/resources/index.html#ebooks">E Books</a>
+                                                <br>
+                                                <a class="dropdown-item" href="https://synup.com/resources/index.html#cases">Case Studies</a>
+                                            </div>
+                                        </li>
+                                        <li class="link"><a href="/blog">Blog</a></li>
+                                        <li class="link"><a href="https://v2.synup.com/users/sign_in" class="login">Login</a></li>
+                                        <li style="bottom: 2px;" class="button"><button type="button" class="btn btn-success"><a style="color: #FFFFFF;" class="home-page-cta" href="https://synup.com/scan-tool">Scan Your Business</a></button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+      <section class="ci-section">
+          <div class="container">
+              <div class="heading">
+                  <h4 class="ci-title">A career in SEO: 27 experts share their tips & insights</h4>
+                  <div class="three-dots">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+              </div>
+          </div>
+          <div class="container-fluid no-padding">
+              <div class="ci-gallery-wrapper">
+
+                  <!--Row one-->
+                  <div class="ci-gallery-item">
+                      <div class="ci-gallery-item-photo">
+                        <img src="./img/aswin.jpg" alt="Aswin Ramesh">
+                        <div class="ci-gallery-item-photo-overlay"></div>
+                        <div class="ci-gallery-item-photo-details">Aswin Ramesh</div>
+                        <span class="ci-arrow"></span>
+                      </div>
+                      <div class="ci-gallery-item-content">
+                          <p>
+
+                                I don’t know about the prevailing trends, but I believe being self taught is the best way to go about it. SEO as a subject is vast and is evolving everyday, therefore, I feel doing one online course alone or sticking to one handbook will not do justice to it.
+
+                                One needs to keep up with newer trends and changes, and for that you need to keep reading! Follow the industry leaders, subscribe to credible SEO blogs & forums, and you will do well.
+                          </p>
+                          <div class="ci-author-details">
+                                <span class="text-muted">@Aswin Ramesh</span>
+                                <p>CEO of <a class="ci-link" href="https://synup.com/">Synup</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ci-gallery-item">
+                      <div class="ci-gallery-item-photo">
+                        <img src="./img/shane.jpg" alt="Shane Barker">
+                        <div class="ci-gallery-item-photo-overlay"></div>
+                        <div class="ci-gallery-item-photo-details">Shane Barker</div>
+                        <span class="ci-arrow"></span>
+                      </div>
+                      <div class="ci-gallery-item-content">
+                          <p>
+                                Learning SEO can be very exciting at first. But let me give you a heads up that it is a very broad topic and there is a lot to understand about SEO.<br>
+
+                                There are many online guides, ebooks, blog posts, and PDFs about SEO available online. These materials will help you to gain some insights and knowledge about the basics of SEO.
+                                I suggest being careful when reading online info about SEO, as it may be outdated or may misguide and mislead you.<br>
+                                
+                                SEO trends change very quickly as Google updates their algorithm almost every day. So, I suggest that you be on your toes and always learn about the new trends in SEO.<br>
+                                
+                                You may want to consider online courses or degrees in SEO. Though majority of information provided in an online course can be found on the internet. But an online course can save you a lot of time and effort since you won’t have to search for the best materials yourself. Also, courses are typically well structured, which can help you stay focused.
+                          </p>
+                          <div class="ci-author-details">
+                                <span class="text-muted">@Shane Barker</span>
+                                <p>Digital Strategist at <a class="ci-link" href="https://shanebarker.com/">Shane Barker</a></p>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="ci-gallery-item">
+                      <div class="ci-gallery-item-photo">
+                        <img src="./img/aaron-wall-seobook.jpg" alt="Aaron Wall">
+                        <div class="ci-gallery-item-photo-overlay"></div>
+                        <div class="ci-gallery-item-photo-details">Aaron Wall</div>
+                        <span class="ci-arrow"></span>
+                      </div>
+                      <div class="ci-gallery-item-content">
+                          <p>
+                                If you go back 10 or 15 years much of the industry was very open & the idea of being in the SEO industry was relatively unpopular. A lot of the independent web publishers sort of got flushed away by the Panda & Penguin updates. As wins became harder and scarcer, and the barriers to entry increased, people became stingier with sharing knowledge. There are a few folks like Glenn Gabe who still regularly share in-depth quality information & advice, though they are the exception to the rule. It is very easy to get caught up in noise reading Twitter regularly (at least as far as SEO goes).<br>
+
+                                Influencers who are sharing things you haven’t seen elsewhere are probably worth paying a bit more attention to. The people who lead discussions in a new direction & uncover things that are worth reading.<br>
+                                
+                                A lot of the worst spammers & most duplicitous individuals in the industry would proclaim righteously they are white hat & against spam. Those people are probably worth avoiding. Or, if you follow them, fade whatever they suggest.<br>
+                          </p>
+                          <div class="ci-author-details">
+                                <span class="text-muted">@Aaron Wall</span>
+                                <p>SEO Expert & founder of <a class="ci-link" href="http://www.seobook.com/">SEOBook</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ci-gallery-item">
+                      <div class="ci-gallery-item-photo">
+                        <img src="./img/TimSoulo.jpg" alt="Time Soulo">
+                        <div class="ci-gallery-item-photo-overlay"></div>
+                        <div class="ci-gallery-item-photo-details">Time Soulo</div>
+                        <span class="ci-arrow"></span>
+                      </div>
+                      <div class="ci-gallery-item-content">
+                            <p>
+                                    There’s really no better way to acquiring competency/knowledge of SEO other than start a website of your own and try to grow its organic search traffic.<br><br>
+
+                                    You can spend months agonising over SEO theory and try to keep in touch with the latest fads, but as soon as you try to actually apply all that knowledge you’ll realise how much of it is wheat and how much is chaff.<br><br>
+                                    
+                                    So if you want to get good at SEO, try to spend less time learning and more time implementing what you already know.<br><br>
+                                    
+                                    Then don’t forget to socialize and exchange your knowledge/experience with fellow SEOs. Most people don’t go to SEO conferences for the talks, but for the networking with fellow SEOs<br><br>
+                            </p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@Time Soulo</span>
+                                  <p>Time Soulo, Head of Marketing & Product Strategy at 
+                                        <a class="ci-link" href="https://ahrefs.com/">Ahrefs</a></p>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="ci-gallery-item">
+                      <div class="ci-gallery-item-photo">
+                        <img src="./img/patrick-langridge.jpg" alt="Patrick Langridge">
+                        <div class="ci-gallery-item-photo-overlay"></div>
+                        <div class="ci-gallery-item-photo-details">Patrick Langridge</div>
+                        <span class="ci-arrow"></span>
+                      </div>
+                      <div class="ci-gallery-item-content">
+                            <p>
+                                    I think it’s really important to test and try different SEO strategies to understand what does and doesn’t work. Not all strategies are effective in all niches, so the best way of developing and learning as an SEO is to get stuck in and try for yourself!<br><br>
+
+                                    We encourage team members to dabble with their own personal projects and websites too, as this can accelerate learning a huge amount. Being self taught is certainly a great place to start, and shows future employers that you are genuinely interested in the industry and are keen to learn more, but I would still encourage working with more experienced SEOs to really get a deep understanding of the discipline.<br><br>
+
+                                    I’m fortunate enough to have been educated in one of the most respected and trusted names in the SEO industry, being taught and trained by the best in the business. If you have same opportunity, I’d highly recommend it.<br><br>
+                            </p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@Patrick Langridge</span>
+                                  <p>Patrick Langridge, Head of SEO at 
+                                        <a class="ci-link" href="https://www.screamingfrog.co.uk/">Screaming Frog</a></p>
+                            </div>
+                        </div>
+                  </div>
+                  <!--Row one-->
+
+
+                  <!--Row two-->
+                  <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/marcus-miller.jpg" alt="Marcus Miller">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Marcus Miller</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                            <p>
+  
+                                    Experience is king. There is no shortage of information out there. And there are lots of tips for beginners. Work on a wide range of projects, and, consider focusing on a particular kind of SEO: ecommerce, local, content – whatever it may be. Focus on the area that engages you and has the most potential from a career perspective.
+                            </p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@Marcus Miller</span>
+                                  <p>Marcus Miller, Founder of <a class="ci-link" href="https://www.bowlerhat.co.uk/">Bowler Hat</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/sean-si.png" alt="Sean Si">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Sean Si</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                            <p>
+                                    Learning SEO is a continuous process that requires a lot of experimentation and research to succeed. When it comes to acquiring and learning about SEO and digital marketing, people have an abundance of learning material online. This means that people can learn at their own pace. <br><br>
+
+                                    However, learning SEO and digital marketing is an investment, which means it is best to learn from only the best sources to ensure that you would have the tools to become successful. <br><br>
+                                    
+                                    Personally, I learned SEO and digital marketing by going through a plethora of online courses, informative blog posts, and experimentation. There are a lot of skilled SEO practitioners that are self-taught and have already become great at what they do. Currently, learning online is the best way to acquire knowledge about SEO, since there are very few educational institutions (if there are any at all) that teach their students about it. With my experience in SEO, I believe it is enough to be self-taught, provided that you are completely dedicated to what you do.<br><br>
+                            </p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@Sean Si</span>
+                                  <p>Sean Si, Founder of <a class="ci-link" href="https://seo-hacker.com/">SEO Hacker</a></p>
+                            </div>
+  
+                        </div>
+                    </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/john-doherty.jpg" alt="John Doherty">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">John Doherty</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                            <p>
+                                    Many of the best SEOs I know are completely self-taught and a large portion of those do not even have a university degree! That said, there are two great ways to acquire competency and knowledge in SEO, and both come back to experience. You need to actually work on and optimize sites in order to learn what works and what does not.
+
+                                    There are many resources out there to learn SEO from experts, such as Moz and DistilledU, but this theoretical knowledge only gets you so far. True expertise comes from knowing what you could do and then making decisions on what you should do as it pertains to a specific site and their needs.
+                                    
+                                    The best way to expedite knowledge and experience is through working at an agency where you can and will be mentored by more experienced marketers.
+                            </p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@ohn Doherty</span>
+                                  <p>John Doherty, Founder at <a class="ci-link" href="https://www.getcredo.com/">Credo</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/JulieJoyceLFM.jpg" alt="Julie Joyce">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Julie Joyce</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                              <p>
+                                    I think it’s definitely enough to be self-taught if you’re the type of person who can continue to learn on your own and read, test, and ask questions. I do think that in the beginning of your career it’s important to try and get to an SEO event or conference though, as you’ll gain access to ideas that might prompt you to expand your knowledge which is always a good thing.<br><br>
+
+                                    I also think it’s important to be open to reading and learning as much as possible about online marketing even if you’re focused on one specific area. I don’t think you will become a great SEO if you don’t explore the field and try and test as much as you can on your own.<br><br>
+                              </p>
+                              <div class="ci-author-details">
+                                    <span class="text-muted">@Julie Joyce</span>
+                                    <p>Julie Joyce, Owner of 
+                                          <a class="ci-link" href="https://www.linkfishmedia.com/">Link Fish Media</a></p>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/RyanStewart.jpg" alt="Ryan Stewart">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Ryan Stewart</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                              <p>
+                                    Everything I know about SEO I learned online. The key to learning SEO is taking action – it’s not enough to read blogs, you have to get your hands dirty building sites.
+                              </p>
+                              <div class="ci-author-details">
+                                    <span class="text-muted">@Ryan Stewart</span>
+                                    <p>Ryan Stewart, Founder of 
+                                          <a class="ci-link" href="https://webris.org/intro-to-seo/">WEBRIS</a></p>
+                              </div>
+                          </div>
+                    </div>
+                    <!--Row two-->
+
+                    <!--Row three-->
+                  <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/LarryKim.jpg" alt="Larry Kim">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Larry Kim</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                            <p>
+                                My advice is to read everything you can, from blogs to books to Twitter discussions. Then do everything to teach yourself. Don’t be afraid to reach out to industry leaders with questions if you can’t find an answer. Get your feet wet by building your own site and practice what you learn. With the knowledge and experience you gain from your own work, it’s easier for you to get an internship or job at a digital marketing agency,</p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@Larry Kim</span>
+                                  <p>Larry Kim, CEO at<a class="ci-link" href="https://mobilemonkey.com/">MobileMonkey</a></p>
+                            </div>
+                        </div>
+                  </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/ashley-faulkes-mad-lemmings.jpg" alt="Ashley Faulkes">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Ashley Faulkes</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                            <p>
+                                    If you want to learn SEO there are a few ways you can go about it. You can read and devour everything you find online or you can buy a few courses and do it at twice the speed.<br><br>
+
+                                    The problem with reading everything online is that it takes ages to find all the information, but even when you do, can you trust it? SEO is a bit of an art and there is often no specific right or wrong way to do it. Sure, there are best practices and things that have worked for years, but they don’t always last that long.
+                            </p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@Ashley Faulkes</span>
+                                  <p>Ashley Faulkes, SEO & WordPress Specialist at<a class="ci-link" href="https://madlemmings.com/">Mad Lemmings</a></p>
+                            </div>
+  
+                        </div>
+                    </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/phil-rozek-2017.jpg" alt="Phil Rozek">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Phil Rozek</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                            <p>
+                                    To do well in local SEO you should be largely self-taught, but you also need to get good input and experience from other sources. Here are the main ways you should learn – roughly in order of importance: <br><br>
+
+                                    By doing local SEO for at least one paying client.  (Even if you’re not good yet, and even if you don’t get paid much.)<br>
+                                    By marketing and growing your own business. Notice I said “market,” not “do local SEO for.” Local SEO may or may not be how you get your clients, as a local SEO-er.  (Ironic, huh?) The experience will keep you tethered to reality, so you don’t lose sight of what’s practical for business owners.<br>
+                                    By paying attention to what good/longtime/ credible local SEOs say and do.<br>
+                                    By keeping an eye on what bad/hacky SEOs do (so you can avoid it and take a different tack).<br>
+                                    By writing down your observations, questions, findings, results, etc. Keep “lab notes.”<br>
+                                    By finding a mentor – a longtime local SEO who’s made more mistakes than you have.  It can be one person or a “brain trust” of people. (Yes, that means you probably will have to pay for their time. Less costly than the alternatives.)<br>
+                            </p>
+                            <div class="ci-author-details">
+                                  <span class="text-muted">@Phil Rozek</span>
+                                  <p>Phil Rozek, CEO of <a class="ci-link" href="http://www.localvisibilitysystem.com/">Local Visibility System</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/AleksanderNedyalkov.jpg" alt="Aleksander Nedyalkov">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Aleksander Nedyalkov</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                              <p>
+                                    First, there is no one-way path to SEO. Second, you need to learn:<br><br>
+
+1. Technical SEO – Navigational structures, site speed, accessibility, semantics, etc.<br>
+2. Front-end development or UX SEO – Optimizing for specific UX purposes<br>
+3. Content strategy SEO – This is bit more project management-oriented and requires a lot of coordination. It also requires a good keyword research knowledge and technical SEO understanding from the writers.<br>
+4. Link building or Outreach SEO – Knowing how to build backlinks through effective lead generation and outreach strategy is also an important skill every SEO should have.<br>
+5. Data and business analytics – Finally, none of the above SEO skills are of any value without the ability to strategize and continuously improve action plans based on careful analysis of performance metrics and business data.<br><br>
+
+I can’t say that any of these SEO learning paths is less valuable than the other. But these days, search engine algorithms are pushing towards a trend that is of natural and safe results produced by outreach SEO. <br><br>
+
+Considering all of the above, plus the fact that we’re now living in a fast-paced, constantly evolving online world, the only way to become a real expert is to really work hard, read a lot, and test continuously. This is especially effective when done alongside a team of peers whom you can always exchange knowledge and best practices with.<br><br>
+
+
+                              </p>
+                              <div class="ci-author-details">
+                                    <span class="text-muted">@Aleksander Nedyalkov</span>
+                                    <p>Aleksander Nedyalkov, SEO & Marketing Manager at  
+                                          <a class="ci-link" href="https://ninjaoutreach.com/about/">NinjaOutreach</a></p>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="ci-gallery-item">
+                        <div class="ci-gallery-item-photo">
+                          <img src="./img/AdamSteele.jpg" alt="Adam Steele">
+                          <div class="ci-gallery-item-photo-overlay"></div>
+                          <div class="ci-gallery-item-photo-details">Adam Steele</div>
+                          <span class="ci-arrow"></span>
+                        </div>
+                        <div class="ci-gallery-item-content">
+                              <p>
+                                    I am not too sure, but I’d lean towards most folks being self-taught. There are some courses out there, including Brian Dean’s SEO that Works course. Courses are great, but I am sure if you asked Brian he’d tell you that maybe 5-10% of folks actually apply what he’s taught. I always start new trainees off with free information, of which there is plenty of in SEO.<br><br>
+
+                                    Moz has a very decent beginner’s guide that will get you up to speed on the glossary of SEO terms. I will mix that with some practical knowledge i.e. go register yourself a domain, build a WordPress site on whichever topic, and optimize it to the best of your ability. Next, I’d point them in the direction of some outreach guides and templates and ask them to rank for some terms. Of course, there is a lot more to SEO, but there is a tendency for SEOs to gloss over the basics and go right to the advanced stuff. Most SEOs will be working on SMB-style, 10-20 page websites. I recommend steering clear of the advanced strategies, nail the basics and when you’re ready, build on that foundation.                              </p>
+                              <div class="ci-author-details">
+                                    <span class="text-muted">@Adam Steele</span>
+                                    <p>Adam Steele, CEO of 
+                                          <a class="ci-link" href="https://loganix.net/">Loganix</a></p>
+                              </div>
+                          </div>
+                    </div>
+                    <!--Row three-->
+
+
+
+              </div>
+          </div>
+      </section>
+
+        <!-- Footer -->
+        <div id="footer"></div>
+        <!-- End of Footer -->
+
+        <script>
+            var item = $('.ci-gallery-item');
+
+            item.click(function(e){
+                var height =  $(this).children('.ci-gallery-item-content').outerHeight();
+                
+                if($(this).hasClass('active')){
+
+                    $(this).removeClass('active');
+                    $(item).css({'margin-bottom': 0})
+
+
+                }else{
+                    $(item).removeClass('active')
+                    $(item).css({'margin-bottom': 0})
+                    $(this).addClass('active');
+                    $(this).animate({'margin-bottom': height}, 300)
+
+                }
+                
+            })
+        </script>
+</body>
+</html>
+
