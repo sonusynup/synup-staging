@@ -118,7 +118,7 @@
     padding: 20px;
     max-width: 50%;
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     opacity: 0;
     transform: translateX(-10px);
@@ -220,6 +220,9 @@
     .ci-gallery-item-photo{
         height: 250px;
     }
+    .ci-gallery-item-content{
+        padding: 50px;
+    }
 }
 
 @media(min-width: 1024px){
@@ -255,6 +258,9 @@
     }
     .ci-gallery-item-content p{
         font-size: 18px;
+    }
+    .ci-gallery-item-photo-details{
+        font-size: 26px;
     }
 }
 
