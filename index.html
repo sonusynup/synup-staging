@@ -951,15 +951,29 @@ Considering all of the above, plus the fact that we’re now living in a fast-pa
                 
                 if($(this).hasClass('active')){
 
-                    $(this).removeClass('active');
-                    $(item).css({'margin-bottom': 0})
+                    $(this).animate({'margin-bottom': 0}, function(){
+                        $(this).removeClass('active');
+                    })
+                    $(this).find('.ci-gallery-item-content').addClass('fadeOut')
 
 
                 }else{
-                    $(item).removeClass('active')
-                    $(item).css({'margin-bottom': 0})
-                    $(this).addClass('active');
-                    $(this).animate({'margin-bottom': height}, 300)
+                    $(this).find('.ci-gallery-item-content').removeClass('fadeOut')
+
+                    if($(this).siblings('.ci-gallery-item').hasClass('active')){
+                        $(item).removeClass('active')
+                        $(this).addClass('active');
+                        $(this).animate({'margin-bottom': height}, 300, function(){
+                            $(this).siblings('.ci-gallery-item').css({'margin-bottom': 0})
+                        })
+
+
+                    }else{
+                        $(item).removeClass('active')
+                        $(item).css({'margin-bottom': 0})
+                        $(this).addClass('active');
+                        $(this).animate({'margin-bottom': height}, 400)
+                    }
 
                 }
                 
