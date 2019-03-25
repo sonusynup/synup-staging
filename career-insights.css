@@ -186,6 +186,12 @@
     }
   }
 
+  .ci-gallery-item-content ul li{
+    font-size: 18px;
+    font-style: italic;
+    color: #013754;
+}
+
   @media(min-width: 320px){
 
     .ci-gallery-item-photo img{
@@ -258,9 +264,28 @@
     }
     .ci-gallery-item-content p{
         font-size: 18px;
+        max-width: 75%;
+        margin: auto;
+    }
+
+    .ci-gallery-item-content ul{
+        max-width: 75%;
+        margin: auto;
+        padding: 30px 0;
+        line-height: 3;
     }
     .ci-gallery-item-photo-details{
         font-size: 26px;
     }
 }
 
+.navbar-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: background-color ease-in 0.3s; /* tweak to your liking */
+}
+.navbar{
+    padding: 20px 0 20px 0
+}
