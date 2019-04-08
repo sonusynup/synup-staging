@@ -1,0 +1,141 @@
+body {
+	color: #303030;
+	background-color: #FFFFFF;
+}
+
+#banner {
+	margin-top: 8em;
+}
+
+.cta-box {
+	margin-top: 2em;
+}
+
+h1 {
+	font-size: 2.8em;
+	font-weight: 600;
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+p, .lbd-list li {
+    font-size: 1.5em;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    color: #555;
+    
+}
+
+.lbd-list {
+	background-color: #FAFAFA;
+	padding: 3em;
+}
+
+.lbd-list li {
+	list-style-type: decimal !important;
+	margin-bottom: 1em;
+}
+
+.cta-box {
+	position: fixed;
+	width: 300px;
+	height: 360px;
+	border-radius: 11px;
+	background-color: #FBFBFB;
+	border: solid 1px #eeeeee;
+}
+
+.cta-box h4 {
+	  margin: 0 auto;
+	  width: 80%;
+	  margin-top: 30px;
+	  font-family: SFProText;
+	  font-size: 20px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: 2px;
+	  text-align: center;
+	  color: #303030;
+}
+
+.check-img {
+	width: 18px;
+	height: 18px;
+	vertical-align: bottom;
+}
+
+.checklist {
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+.checklist li {
+	margin-bottom: 1em;
+}
+
+.list-text {
+	  width: 213px;
+	  height: 25px;
+	  font-family: SFProText;
+	  font-size: 16px;
+	  font-weight: 300;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: 2px;
+	  text-align: left;
+	  color: #303030;
+}
+
+.cta-button {
+	  width: 243px;
+	  height: 55px;
+	  border-radius: 11px;
+	  background-color: #fe1a1a;
+	  display: block;
+	  text-align: center;
+	  margin: 3em auto;
+	  cursor: pointer;
+}
+
+.cta-button:hover {
+	background-color: #da0606;
+}
+
+.cta-button a {
+  font-family: SFProText;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 2px;
+  color: #fefefe;
+}
+
+table {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-top: 4em;
+}
+
+table th {
+	text-align: center;
+	padding: 1em;
+	font-size: 20px;
+	border: 1px solid #eee;
+	font-family: SFProtext;
+	font-weight: 500;
+	background-color: #FBFBFB;
+}
+
+table td {
+	text-align: center;
+	padding: 0.6em;
+	font-size: 16px;
+	border: 1px solid #eee;
+	font-family: SFProtext;
+	font-weight: 400;
+}

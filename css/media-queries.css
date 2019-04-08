@@ -1,0 +1,1950 @@
+@media only screen and (max-width: 1300px) {
+
+    /**** Single Location Page ****/
+
+    .industry-tools .industry-leading-tools {
+        width: 98%;
+    }
+
+    .workflow-synup .left-side {
+        padding: 3% 5% 28%;
+    }
+
+    .workflow-synup .right-side {
+        padding: 3% 5% 28%;
+    }
+
+    .article-height {
+    min-height: 230px;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+    /**** Pricing Page ****/
+
+    .premium ul li h4 {
+        font-size: 26px;
+    }
+
+    .range-slider .range-value {
+        left: -70px;
+    }
+    .range-slider .range-arrow {
+        top: 38px;
+        border-top-width: 0px;
+    }
+
+
+    /**** Single Location Page ****/
+
+    .industry-leading-tools .tools-left {
+        padding: 0 10px 0 0;
+    }
+
+    .try-free figure {
+        top: 8.65em;
+        position: relative;
+    }
+
+    .setup .setup-image-title .image-title {
+        font-size: 16px;
+    }
+
+    /**** Agency Page ****/
+
+    .pricing-sense {
+        padding: 8.125em 0 3.125em;
+    }
+
+    .pricing-sense figure {
+        position: absolute;
+        top: 7.8em;
+    }
+
+    .pricing-sense figure img {
+        max-width: 470px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .setup.agency-setup figure .agency-setup-figure {
+        position: absolute;
+        top: 56px;
+        left: 15px;
+        right: 0;
+        width: 63.5%;
+        height: 325px;
+    }
+
+    /**** About Page ****/
+
+    .fun-synup .top-image img {
+        width: 100%;
+    }
+
+    .fun-synup .right-side figure {
+        position: absolute;
+        top: 1.5em;
+    }
+
+
+    /**** Features Page ****/
+
+    /*.workflow-synup .left-side {
+        padding: 4em 3em 31.313em 7.5em;
+    }*/
+
+
+    .article-height {
+    min-height: 0px;
+    }
+
+    /**** Multi Location Page ****/
+
+    .commitment.demand-support figure {
+        position: relative;
+        top: 5.65em;
+    }
+
+    /*connect-us*/
+    .social-media {
+        margin-left: 60px;
+    }
+    .synup-home {
+      left: 475px;
+      top: 161px;
+    }
+    .business-home {
+        right: 50px;
+    }
+    .basic-arrows,
+    .arrows {
+        background: rgba(0, 0, 0, 0) url("../images/arrow-sprite.png") no-repeat scroll 80px 0;
+        margin-left: 0px;
+        height: 432px;
+    }
+
+    /*edited*/
+    /*.workflow-synup .left-side,
+      .workflow-synup .right-side {
+    padding: 4em 0 31.313em;*/
+
+    .next-feature h2 {
+        font-size: 44px;
+    }
+}
+
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {
+
+    /*connect-us*/
+    .social-media {
+        margin-left: -10px;
+    }
+    .synup-home {
+      left: 400px;
+      top: 161px;
+    }
+    .business-home {
+        right: 0px;
+    }
+    .basic-arrows,
+    .arrows {
+        background: rgba(0, 0, 0, 0) url("../images/arrow-sprite.png") no-repeat scroll 80px 0;
+        margin-left: -70px;
+        height: 432px;
+        width: 90%;
+    }
+
+    /**** Pricing Page ****/
+
+    .banner-section h3 {
+        font-size: 48px;
+    }
+
+    .premium-cost, .premium, .business {
+        padding: 5em 0;
+    }
+    .premium .premium-list {
+        margin: 30px 0 0 0;
+    }
+
+    .business h3 {
+        font-size: 44px;
+        line-height: 1;
+    }
+    .business p {
+        font-size: 24px;
+        margin: 0 auto 30px;
+    }
+
+
+    .range-slider .range-value {
+        padding: 5px 10px 10px;
+        width: 100px;
+        left: -40px;
+    }
+
+    .range-value h5 {
+        font-size: 11px;
+        text-align: center;
+    }
+    .range-value h4 {
+        font-size: 26px;
+    }
+
+    .slider-handle {
+        top: 12.645%;
+    }
+
+
+    .navbar-nav > li {
+        margin-right: 20px;
+    }
+    .navbar-nav > li:last-child {
+        margin-right: 10px;
+    }
+
+
+    /**** Single Location Page ****/
+
+    .access-data {
+        padding: 5em 0;
+    }
+    .access-data p {
+        width: 100%;
+    }
+
+    .try-free h3, .commitment h3, .pricing-sense h3, .on-demand h3, .Sub-features h3 {
+        font-size: 36px;
+        letter-spacing: -1px;
+    }
+
+    .tools-list:hover .arrow-image, .tools-list:focus .arrow-image, .tools-list.active .arrow-image, .tools-list.default .arrow-image {
+        display: none;
+    }
+
+    .try-free figure img {
+        max-width: 415px;
+    }
+
+    .Sub-features figure img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .try-free figure {
+        /*position: absolute;
+        top: 14.25em;
+        right: -1em;*/
+        position: relative;
+        right: 4em;
+        top: 14.25em;
+    }
+
+    .Sub-features figure {
+        position: relative;
+        right: 0em;
+        height: auto !important;
+    }
+
+    .setup h2 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+
+
+    /**** Agency Page ****/
+
+    .pricing-sense figure {
+        position: absolute;
+        top: 9em;
+        right: 1em;
+    }
+
+    .pricing-sense figure img {
+        /*max-width: 360px;*/
+        width: 100%;
+    }
+
+    .setup.agency-setup figure .agency-setup-figure {
+        position: absolute;
+        top: 40px;
+        left: 11px;
+        right: 0;
+        width: 63.5%;
+        height: 252px;
+    }
+
+    .on-demand .right-side figure img {
+        max-width: 500px;
+    }
+
+
+    /**** About Page ****/
+
+    .about-synup h2 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+
+    .team-synup h2 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+
+    .team-synup .members-list {
+        margin: 10px 0 0 0;
+    }
+
+    .members-list .team-member {
+        margin: 0 0 20px 0;
+    }
+
+    .fun-synup h3 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+
+    .fun-synup .right-side figure {
+        position: absolute;
+        top: 7.35em;
+    }
+
+    .fun-synup .right-side figure img {
+        max-width: 360px;
+    }
+
+    .opening-synup h2 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+        margin: 0 0 20px;
+    }
+
+    .opening-synup .openings-list {
+        margin: 40px 0 0;
+    }
+
+    .opening-synup h3 {
+        margin: 0 0 30px;
+    }
+
+    .panel-group {
+        margin-bottom: 60px;
+    }
+
+    .panel-group.last {
+        margin-bottom: 0;
+    }
+
+
+    .flip-container, .front, .back {
+        margin: 0 auto;
+    }
+
+
+    /**** Features Page ****/
+
+    .crawled-synup h3, .tracking-synup h3, .workflow-synup h3, .feature-synup h3 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+        margin: 0 0 20px;
+    }
+
+    .workflow-synup .left-side, .workflow-synup .right-side {
+        padding: 5% 21% 28%;
+    }
+
+    .feature-synup .feature-synup-list {
+        margin: 30px 0;
+    }
+
+
+    /**** Home Page ****/
+
+    .banner-section.home-banner h3 {
+        font-size: 48px;
+    }
+
+    .social-presence h3 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        max-width: 365px;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    .social-presence .social-list {
+        margin: 40px auto;
+    }
+    .social-presence ul li .icon-image span {
+        margin: 0 auto;
+    }
+    .social-presence ul li .icon-image span img {
+        margin: 0 auto;
+    }
+
+    .web-featured {
+        padding: 40px 0 20px;
+    }
+    .web-rating {
+        position: relative;
+        top: -15px;
+        padding: 0;
+    }
+
+    .web-featured .Trapezoid {
+        top: -40px;
+    }
+    .web-rating hr, .web-rating img {
+        display: none;
+    }
+
+    .web-featured .Trapezoid {
+        border-top: 75px solid rgba(0, 115, 175, 0.6);
+        max-width: 100%;
+    }
+
+    .web-rating h3 {
+        max-width: 100%;
+    }
+
+    .talk-fb h3 {
+        font-size: 36px;
+        letter-spacing: -1px;
+        max-width: 360px;
+    }
+
+    .talk-fb hr {
+        top: 20px;
+        max-width: 440px;
+    }
+
+
+    /**** Multi Location Page ****/
+
+    .commitment.demand-support figure img {
+        max-width: 400px;
+    }
+    .commitment.demand-support figure {
+        position: relative;
+        top: 7.4em;
+        right: 3em;
+        /*overflow: hidden;*/
+    }
+
+
+
+    .Sub-features-right {
+        padding: 0;
+    }
+
+    .next-feature h2 {
+        font-size: 40px;
+        margin: 5px;
+    }
+
+
+    .footer-link {
+        margin-bottom: 20px;
+    }
+    footer .footer-logo img {
+        margin: 0 0 18px 0;
+    }
+    footer {
+        padding: 30px 0;
+    }
+    footer .last-col {
+        padding: 0 8px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+         margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /**** Connect HomePage ****/
+
+    .business-home,
+    .synup-home,
+    .arrow-block {
+        display: none;
+    }
+    .social-media .bn,
+    .social-media .yh,
+    .social-media .ylp,
+    .social-media .gp,
+    .social-media .yp,
+    .social-media .fb {
+        display: inline;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 80px;
+        height: 90px;
+        left: 0;
+        top: 0;
+    }
+    .connect-us, .social-media {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .social-media a:hover img{
+        border: 3px solid white;
+        border-radius: 4px;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        -webkit-transform:scale(.9);
+        transform:scale(.9);
+    }
+
+    .navbar-header .button {
+        float: right;
+        margin-right: 20px;
+        margin-top: 12px;
+    }
+
+    .navbar-header .button .btn-success {
+        color: #fff;
+        font-family: "Brandon Grotesque W01", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 50px;
+        margin: 0;
+        border: none;
+    }
+    .navbar-header .button .btn-success:hover, .navbar-header .button .btn-success:focus {
+        background-color: #dd616d;
+        padding: 10px 20px;
+        border: none;
+        box-shadow: 0 2px 1px rgba(0,53,81,.3);
+        position: relative;
+    }
+
+    .navbar-primary.affix-top .navbar-nav > li.link, .navbar-primary.affix .navbar-nav > li.link {
+        display: block;
+    }
+    .navbar-primary.affix-top .navbar-nav > li.button, .navbar-primary.affix .navbar-nav > li.button {
+        display: none;
+    }
+
+    /**** Pricing Page ****/
+
+
+    .banner-section h3 {
+        font-size: 40px;
+        margin: 0 0 20px 0;
+    }
+
+    .premium-cost p, .premium-cost p span {
+        font-size: 28px;
+    }
+    .premium ul li {
+        margin: 0 0 30px 0;
+    }
+    .premium ul li .icon-image span {
+        margin: 0 auto 20px;
+    }
+    .premium h3 {
+        font-size: 36px;
+        margin: 0 0 30px 0;
+    }
+
+
+    .range-slider .range-value {
+        width: 90px;
+        padding: 5px 5px 10px;
+        left: -35px;
+    }
+    .range-value h5 {
+        font-size: 9px;
+    }
+
+    .slider.slider-horizontal .slider-track {
+        width: 98%;
+    }
+
+    .range-slider .range-value {
+        z-index: 0;
+    }
+
+
+    /**** Single Location Page ****/
+
+    .access-data h3 {
+        font-size: 36px;
+        letter-spacing: -1px;
+    }
+    .access-data p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .Sub-features {
+        height: auto !important;
+        padding: 5em 0 0;
+    }
+    .Sub-features-left, .Sub-features-right {
+        padding-top: 0 !important;
+    }
+
+    .try-free, .pricing-sense {
+        padding: 5em 0 0 0;
+        height: auto;
+    }
+
+    .try-free .try-free-right, .try-free .try-free-left {
+        padding: 0;
+    }
+
+    .Sub-features .Sub-features-left, .Sub-features .Sub-features-right {
+        padding-top: 0;
+    }
+
+    .commitment {
+        padding: 5em 0 3em;
+    }
+    .try-free figure, .pricing-sense figure, .Sub-features figure {
+        top: 0;
+        right: 0;
+        left: 0;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .try-free figure img, .Sub-features figure img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .commitment figure img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .pricing-sense figure img {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    .try-free .right-side, .pricing-sense .right-side {
+        margin: 0 0 40px 0;
+    }
+
+    .Sub-features .right-side, .Sub-features .left-side {
+        margin: 0;
+    }
+
+    .try-free p, .commitment p,
+    .pricing-sense p, .on-demand p, .Sub-features p {
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+
+    .try-free .left-side, .try-free .right-side,
+    .commitment .left-side, .commitment .right-side,
+    .pricing-sense .left-side, .pricing-sense .right-side,
+    .on-demand .left-side, .on-demand .right-side,
+    .Sub-features .left-side, .Sub-features .right-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .commitment .left-side, .on-demand .left-side {
+        margin: 0 0 20px 0;
+    }
+
+    .industry-tools .industry-leading-tools {
+        padding: 40px;
+    }
+
+    .industry-leading-tools .tools-list {
+        width: 100%;
+    }
+
+    .tools-left img {
+        max-width: 100%;
+    }
+
+    .industry-tools .background-image {
+        display: none;
+    }
+
+    .industry-leading-tools .mrb80 {
+        margin-bottom: 40px;
+    }
+    .industry-leading-tools .mrb80.last {
+        margin-bottom: 0px;
+    }
+
+    .industry-tools h2 {
+        font-size: 22px;
+    }
+
+
+    .setup {
+        padding: 5em 0;
+    }
+    .setup.agency-setup {
+        padding: 5em 0 0;
+    }
+
+    .setup p {
+        font-size: 18px;
+    }
+
+    .setup .mrb80 {
+        margin-bottom: 40px;
+    }
+
+    .setup .down-icon {
+        top: -20px;
+    }
+
+
+    .setup .setup-image-title {
+        width: 100%;
+    }
+
+    .setup figure {
+        width: 50%;
+        margin: 0 auto 60px;
+    }
+
+    .setup figure.last {
+        margin: 0 auto;
+    }
+
+    .setup .hr-line, .setup .dot {
+        display: none;
+    }
+
+    .industry-leading-tools .pricing-plan {
+        display: none;
+    }
+
+
+    /**** Agency Page ****/
+
+    .setup.agency-setup figure img.ipad-cover {
+        display: none;
+    }
+
+    .setup.agency-setup figure .agency-setup-figure {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin: 0 auto 40px;
+        height: auto;
+        display: block;
+    }
+
+    .setup.agency-setup figure {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .on-demand .right-side figure img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /**** About Page ****/
+
+    .about-synup {
+        padding: 5em 0;
+    }
+    .about-synup p {
+        font-size: 18px;
+        margin: 0 auto 20px;
+        max-width: 100%;
+    }
+    .about-synup figure img {
+        margin: 25px auto;
+    }
+
+    .team-synup {
+        padding: 5em 0;
+    }
+    .team-synup p {
+        font-size: 18px;
+        margin: 0 auto 20px;
+        max-width: 100%;
+    }
+
+
+    .fun-synup {
+        padding: 5em 0 0;
+    }
+
+    .fun-synup .left-side, .fun-synup .right-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fun-synup p {
+        font-size: 18px;
+        margin: 0 auto 20px;
+        max-width: 100%;
+    }
+
+    .fun-synup .right-side figure {
+        top: 0;
+        right: 0;
+        left: 0;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fun-synup .right-side figure img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .opening-synup {
+        padding: 5em 0;
+    }
+
+    .opening-synup .openings-list {
+        margin: 30px 0 0;
+    }
+
+    .opening-synup h3 {
+        font-size: 16px;
+    }
+
+    h4.panel-title {
+        font-size: 14px;
+    }
+
+
+    /**** Features Page ****/
+
+    .crawled-synup, .tracking-synup {
+        padding: 5em 0 0 0;
+    }
+
+    .crawled-synup p, .tracking-synup p, .workflow-synup p {
+        font-size: 18px;
+        margin: 0 auto 20px;
+    }
+
+    .workflow-synup .circle-part {
+        max-width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+
+    .workflow-synup .left-side {
+        padding: 5em 1.5em 0 1.5em;
+        text-align: center;
+    }
+    .workflow-synup .right-side {
+        padding: 5em 1.5em 0 1.5em;
+        text-align: center;
+    }
+
+    .right-side article figure, .left-side article figure {
+        position: relative;
+        width: 100%;
+    }
+    .right-side article figure img, .left-side article figure img {
+        margin: 0 auto;
+    }
+
+    .feature-synup {
+        padding: 5em 0;
+    }
+
+
+    .feature-synup .feature-synup-list li {
+        min-height: 280px;
+    }
+
+
+    /**** Home Page ****/
+
+    .banner-section.home-banner h3 {
+        font-size: 40px;
+    }
+
+    .social-presence {
+        padding: 5em 0;
+    }
+
+    .social-presence h3 {
+        font-size: 32px;
+        max-width: 325px;
+        width: 100%;
+    }
+
+    .social-presence ul li {
+        margin: 0 0 30px 0;
+    }
+
+    .social-presence ul li .icon-image span {
+        height: 170px;
+    }
+
+    .logo-img.mrb30 {
+        margin: 0;
+    }
+
+    .logo-img.text-left, .logo-img.text-right {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+
+    .talk-fb {
+        padding: 5em 0;
+    }
+
+
+    /**** Multi Location Page ****/
+
+    .commitment.demand-support figure {
+        top: 5em;
+        right: 0;
+        left: 0;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .commitment.demand-support figure img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .listing-management {
+        padding: 8em 0 0;
+    }
+
+
+
+    /**** Footer ****/
+
+    footer .map-icon {
+        margin: 0 auto 10px;
+        text-align: center;
+        float: none;
+    }
+    footer .map-icon .pull-right {
+        float: none! important;
+    }
+    footer p {
+        margin: 0 auto 20px;
+        float: none;
+        max-width: 100%;
+        text-align: center;
+    }
+    footer .counter-part {
+        margin: 0 auto;
+        float: none;
+        left: 0;
+    }
+
+
+
+
+
+    /*.navbar-wrapper {
+        position: relative;
+        top: 0;
+        z-index: 9999;
+    }*/
+
+
+    .navbar-primary .navbar-collapse {
+        text-align: center;
+        border: 0;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    /*.navbar.navbar-primary.affix-top {
+    width: 100%;
+    }
+
+    .navbar.navbar-primary.affix{
+    width: 100%;
+    }*/
+    .navbar.navbar-primary.affix,
+    .navbar.navbar-primary.affix-top {
+        width: 100%;
+        min-height: 60px;
+    }
+    /*.navbar.navbar-primary {
+    width: 100%;
+    }*/
+    .navbar {
+        background-color: #fff;
+        min-height: 60px;
+        margin: 0;
+        position: relative;
+        /*border: 1px solid transparent;*/
+        border: none;
+        padding: 0;
+    }
+    .navbar-nav, .navbar.navbar-primary.affix .navbar-nav {
+        margin: 5px 0 0 0;
+    }
+
+
+
+    .navbar-nav > li,
+    .navbar-nav > li:last-child,
+    .blog-page .navbar-nav > li,
+    .blog-page .navbar-nav > li:last-child {
+        margin: 0;
+    }
+    .navbar-nav > li > a,
+    .blog-page .navbar-nav > li > a,
+    .navbar.navbar-primary.affix .navbar-nav > li > a {
+        line-height: 3;
+        color: #193d6b;
+        font-size: 14px;
+    }
+    /*.banner-section {
+    margin-top: 80px;
+    }*/
+
+    .navbar-brand {
+        font-size: 0px;
+        height: 58px;
+        width: 130px;
+        margin: 12px 0 0;
+        background: url('../images/logo-header.png') no-repeat center center;
+        position: relative;
+        left: 10px;
+        background-size: 80%;
+    }
+
+    .navbar.navbar-primary.white .navbar-brand {
+        margin: 5px 0 0;
+        bottom: 0;
+    }
+
+    .navbar.navbar-primary.affix .navbar-brand {
+        font-size: 0px;
+        height: 58px;
+        width: 130px;
+        margin: 5px 0 0;
+        background: url('../images/logo-header.png') no-repeat center center;
+        position: relative;
+        left: 10px;
+        /*background-size: 80%;*/
+    }
+
+    .navbar.navbar-primary.affix.white .navbar-brand {
+        bottom: 0;
+        top: 0;
+        margin: 3px 0 0;
+    }
+
+
+
+    .navbar-toggle {
+        margin: 15px 0 15px 5px;
+        background-color: transparent;
+        float: left;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #999;
+    }
+
+
+    .navbar-wrapper.affix {
+        width: 100%;
+        min-height: 60px;
+    }
+
+    .navbar-nav > li > a.login,
+    .navbar.navbar-primary.affix .navbar-nav > li > a.login,
+    .blog-page .navbar-nav > li > a.login {
+        line-height: 2;
+        color: #193d6b;
+        border: 1px solid #193d6b;
+        margin: 0 auto 20px;
+        max-width: 180px;
+        width: 100%;
+    }
+    .navbar-nav > li > a:hover, .navbar.navbar-primary.affix .navbar-nav > li > a:hover{
+        color: #25a5e3;
+        text-decoration: none;
+        border: 0;
+    }
+    .navbar-nav > li > a.login:hover,
+    .navbar.navbar-primary.affix .navbar-nav > li > a.login:hover,
+    .blog-page .navbar-nav > li > a.login:hover {
+        color: #25a5e3;
+        text-decoration: none;
+        border: 1px solid #25a5e3;
+    }
+
+    .navbar.navbar-primary.affix .nav>li>a:hover.login {
+        margin: 0 0 10px;
+    }
+
+    .panel-body .btn-default {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .about-page .panel-title a.collapsed:before, .about-page .panel-title a:before {
+        margin-top: 8px;
+    }
+
+
+    .next-feature h2 {
+        font-size: 36px;
+    }
+
+    .next-feature p { 
+        float: none;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .next-feature .arrow-image {
+        text-align: center;
+    }
+
+    .next-feature h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 610px) {
+
+}
+
+@media only screen and (max-width: 580px) {
+
+
+    /**** Pricing Page ****/
+
+    .banner-section h3 {
+        font-size: 32px;
+    }
+
+    .premium h3 {
+        font-size: 32px;
+        margin: 0 0 25px 0;
+    }
+    .business h3 {
+        font-size: 36px;
+    }
+    .business p {
+        font-size: 22px;
+    }
+    .business .btn-default {
+        font-size: 14px;
+    }
+
+    .premium-cost .range-slider {
+        margin: 20px auto;
+        top: -20px;
+    }
+
+
+    .slider.slider-horizontal .slider-track {
+        width: 96.5%;
+    }
+
+    .banner-section .btn-success,
+    .banner-section .btn-default,
+    .contact-page .banner-section .btn-success,
+    .contact-page .banner-section .btn-default {
+        width: 75%;
+        /*margin: 0 0 20px 0;*/
+        margin: 0;
+    }
+
+
+    /**** Single Location Page ****/
+
+    .access-data h3 {
+        font-size: 32px;
+    }
+
+    .try-free h3, .commitment h3, .pricing-sense h3, .on-demand h3, .Sub-features h3 {
+        font-size: 32px;
+    }
+
+    .try-free .btn-default, .commitment .btn-default,
+    .pricing-sense .btn-default, .on-demand .btn-default,
+    .features-green .btn-default, .features-purple .btn-default  {
+        font-size: 14px;
+    }
+
+    .Sub-features {
+        padding: 3em 0 0;
+    }
+
+    .setup h2 {
+        font-size: 32px;
+    }
+
+    .setup figure {
+        width: 75%;
+        margin: 0 auto 40px;
+    }
+
+
+    /**** Agency Page ****/
+
+    .pricing-sense figure img {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+
+    .setup.agency-setup figure {
+        width: 100%;
+        position: relative;
+    }
+
+
+    /**** About Page ****/
+
+    .about-synup h2 {
+        font-size: 32px;
+    }
+
+    .team-synup h2 {
+        font-size: 32px;
+    }
+
+    .fun-synup h3 {
+        font-size: 32px;
+    }
+
+    .opening-synup h2 {
+        font-size: 32px;
+    }
+
+    .opening-synup .openings-list {
+        margin: 20px 0 0;
+    }
+
+    .opening-synup .each-opening {
+        width: 100%;
+    }
+
+    .panel-group {
+        margin-bottom: 40px;
+    }
+
+    .panel-group .panel {
+        margin-bottom: 20px;
+    }
+
+
+    /**** Features Page ****/
+
+    .crawled-synup h3, .tracking-synup h3, .workflow-synup h3, .feature-synup h3 {
+        font-size: 32px;
+    }
+
+    .feature-synup ul li h4 {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+
+    .feature-synup .feature-synup-list {
+        margin: 0;
+    }
+
+
+    /**** Home Page ****/
+
+    .banner-section.home-banner h3 {
+        font-size: 32px;
+    }
+
+    .social-presence ul li {
+        width: 100%;
+    }
+
+    .social-presence ul li.last {
+        width: 100%;
+        margin: 0;
+    }
+
+    .social-presence ul li h4 {
+        font-size: 16px;
+    }
+
+    .talk-fb h3 {
+        font-size: 32px;
+    }
+
+
+    .listing-management h2 {
+        font-size: 36px;
+    }
+
+    .next-feature h2 {
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*connect*/
+    .connect-us, .social-media {
+        display: table;
+        margin: 10px auto 0;
+        text-align: center;
+        width: 240px;
+    }
+
+    /*connect*/
+
+    .navbar-toggle {
+        margin: 15px 0 15px 0px;
+    }
+
+    .navbar-header .button .btn-success {
+        font-size: 12px;
+        letter-spacing: 0;
+        padding: 10px 15px;
+    }
+    .navbar-header .button .btn-success:hover, .navbar-header .button .btn-success:focus {
+        padding: 10px 15px;
+    }
+
+    .navbar-header .button {
+        margin-right: 10px;
+    }
+
+    .navbar-brand {
+        left: -10px;
+        width: 110px;
+    }
+    .navbar.navbar-primary.affix .navbar-brand {
+        left: 0;
+        width: 110px;
+    }
+
+    /**** Pricing Page ****/
+
+    .banner-section p {
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 1.4;
+        margin: 0 auto 20px;
+    }
+
+    .banner-section p.pricing-para {
+        margin: 0 auto;
+    }
+
+    .banner-section h3 {
+        font-size: 30px;
+        letter-spacing: -1px;
+    }
+
+    .premium-cost, .premium, .business {
+        padding: 3em 0;
+    }
+    .premium-cost h3 {
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+    .premium-cost p, .premium-cost p span {
+        font-size: 22px;
+    }
+
+    .premium .premium-list {
+        margin: 0;
+    }
+    .premium h3 {
+        font-size: 30px;
+        margin: 0 0 20px 0;
+    }
+    .premium ul li {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .premium ul li.last {
+        margin: 0;
+    }
+
+    .business h3 {
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+    .business p {
+        font-size: 18px;
+        margin: 0 auto 20px;
+    }
+
+    .business .btn-default {
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .premium-cost h3 {
+        margin: 0;
+    }
+
+    .premium-cost .range-slider {
+        margin: 0 auto 20px;
+    }
+
+    .slider.slider-horizontal .slider-track {
+        width: 97%;
+    }
+
+
+    .range-slider .range-arrow {
+        height: 75px;
+    }
+
+
+    .banner-section.home-banner .overlay {
+        width: 100%;
+        padding-bottom: 40px !important;
+    }
+
+    .banner-section .btn-success,
+    .banner-section .btn-default,
+    .contact-page .banner-section .btn-success,
+    .contact-page .banner-section .btn-default {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+
+    .mrb40 {
+        margin-bottom: 20px;
+    }
+    .mrb20 {
+        margin-bottom: 10px;
+    }
+
+
+    /**** Single Location Page ****/
+
+    .banner-section.single-location-banner p, .banner-section.agency-banner p {
+        max-width: 100%;
+        font-size: 20px;
+        margin: 0 auto 20px;
+        line-height: 1.4;
+    }
+
+    .single-location-banner .btn-success, .agency-banner .btn-success, .about-banner .btn-success, .features-banner .btn-success, .home-banner .btn-success,
+    .multilocation-banner .btn-success {
+        margin: 0;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .single-location-banner .btn-success:hover, .single-location-banner .btn-success:focus,
+    .agency-banner .btn-success:hover, .agency-banner .btn-success:focus,
+    .about-banner .btn-success:hover,  .about-banner .btn-success:focus,
+    .features-banner .btn-success:hover,  .features-banner .btn-success:focus,
+    .home-banner .btn-success:hover,  .home-banner .btn-success:focus,
+    .multilocation-banner .btn-success:hover, .multilocation-banner .btn-success:focus {
+        padding: 10px 20px;
+    }
+
+    .access-data {
+        padding: 3em 0;
+    }
+
+    .access-data .mrb60 {
+        margin-bottom: 30px;
+    }
+
+    .access-data h3 {
+        font-size: 30px;
+    }
+
+    .access-data p {
+        font-size: 16px;
+    }
+
+
+    .try-free, .pricing-sense, .Sub-features {
+        padding: 3em 0 0;
+    }
+    .commitment, .on-demand {
+        padding: 3em 0;
+    }
+
+    .try-free h3, .commitment h3, .pricing-sense h3, .on-demand h3, .Sub-features h3 {
+        font-size: 30px;
+    }
+
+    .try-free p, .commitment p, .pricing-sense p, .on-demand p, .Sub-features p {
+        font-size: 16px;
+    }
+
+    .try-free .btn-default, .commitment .btn-default,
+    .pricing-sense .btn-default, .on-demand .btn-default,
+    .features-green .btn-default, .features-purple .btn-default {
+        font-size: 12px;
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .try-free .right-side, .pricing-sense .right-side {
+        margin: 0 0 20px 0;
+    }
+
+    .Sub-features .right-side {
+        margin: 0;
+    }
+
+
+    .industry-tools {
+        padding: 3em 0 0;
+    }
+
+    .industry-tools .industry-leading-tools {
+        padding: 30px 20px;
+        width: 100%;
+    }
+
+    .industry-leading-tools .tools-left {
+        margin: 0 auto 20px;
+        float: none;
+        padding: 0 15px;
+        width: 50%;
+    }
+    .industry-leading-tools .tools-right {
+        margin: 0 auto;
+        float: none;
+        padding: 0 15px;
+        width: 100%;
+    }
+    .industry-leading-tools .tools-right .inner {
+        text-align: center;
+    }
+
+    .industry-leading-tools .inner h3 {
+        font-size: 14px;
+    }
+
+    .industry-tools h2 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .setup {
+        padding: 3em 0;
+    }
+
+    .setup.agency-setup {
+        padding: 3em 0 0;
+    }
+    .setup h2 {
+        font-size: 30px;
+        line-height: 1;
+    }
+    .setup p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .setup .mrb80 {
+        margin-bottom: 20px;
+    }
+    .setup .down-icon {
+        top: -5px;
+        margin: 0 auto;
+    }
+    .setup figure {
+        width: 100%;
+    }
+
+    .try-free figure img, .Sub-features figure img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .commitment figure img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /**** Agency Page ****/
+
+    .pricing-sense figure img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .setup.agency-setup figure .agency-setup-figure {
+        margin: 0 auto;
+        top: 0;
+    }
+
+
+    /**** About Page ****/
+
+    .about-synup {
+       padding: 3em 0;
+    }
+    .about-synup h2 {
+        font-size: 30px;
+    }
+    .about-synup p {
+        font-size: 16px;
+    }
+
+    .team-synup {
+        padding: 3em 0;
+    }
+    .team-synup h2 {
+        font-size: 30px;
+    }
+    .team-synup p {
+        font-size: 16px;
+    }
+
+    .fun-synup {
+        padding: 3em 0 0;
+    }
+    .fun-synup h3 {
+        font-size: 30px;
+    }
+    .fun-synup p {
+        font-size: 16px;
+    }
+
+    .opening-synup {
+        padding: 3em 0;
+    }
+
+    .opening-synup h2 {
+        font-size: 30px;
+    }
+
+    .about-banner .banner-description {
+        padding: 0 15px;
+    }
+
+    .about-all-banner img {
+        height: 450px;
+    }
+
+    .about-page .panel-group .panel-heading + .panel-collapse > .panel-body {
+        padding: 0 0 0 30px;
+    }
+
+    .panel-group {
+        margin-bottom: 30px;
+    }
+
+    .panel-group .panel {
+        margin-bottom: 15px;
+    }
+
+    /**** Features Page ****/
+
+
+    .banner-section.features-banner p, .banner-section.multilocation-banner p{
+        max-width: 100%;
+        font-size: 20px;
+        margin: 0 auto 20px;
+        line-height: 1.4;
+    }
+
+    .crawled-synup, .tracking-synup {
+        padding: 3em 0 0 0;
+    }
+
+    .crawled-synup h3, .tracking-synup h3, .workflow-synup h3, .feature-synup h3 {
+        font-size: 30px;
+    }
+    .feature-synup h3 {
+        margin: 0 0 40px;
+    }
+    .crawled-synup p, .tracking-synup p, .workflow-synup p {
+        font-size: 16px;
+    }
+
+
+    .tracking-synup figure img {
+        margin: 0 auto;
+    }
+
+    /*.workflow-synup .left-side {
+        padding: 3em 1.5em
+    }*/
+    .right-side, .left-side {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .workflow-synup .circle-part.mrt40 {
+        margin-top: 20px;
+    }
+
+    .feature-synup {
+        padding: 3em 0;
+    }
+
+
+    .feature-synup .feature-synup-list {
+        margin: 0;
+    }
+
+    .feature-synup .feature-synup-list li {
+        width: 100%;
+        margin: 0 0 20px;
+        height: auto;
+        min-height: 100%;
+        text-align: center;
+    }
+    .feature-synup .feature-synup-list li.last {
+        width: 100%;
+        margin: 0;
+    }
+
+    .feature-synup ul li .icon-image span {
+        margin: 0 auto 20px;
+    }
+
+
+    .feature-synup ul li p {
+        padding: 0;
+    }
+
+    /**** Home Page ****/
+
+    .banner-section.home-banner h3 {
+        font-size: 30px;
+        letter-spacing: -1px;
+    }
+
+    .banner-section.home-banner p {
+        max-width: 100%;
+        margin: 0 auto 20px;
+        font-size: 22px;
+    }
+
+    .social-presence {
+        padding: 3em 0;
+    }
+
+    .social-presence h3 {
+        font-size: 30px;
+    }
+
+    .social-presence .social-list {
+        margin: 20px auto 0;
+    }
+
+    .social-presence ul li h4 {
+        font-size: 14px;
+    }
+
+
+    .web-rating h3 {
+        font-size: 16px;
+    }
+
+    .web-featured .Trapezoid {
+        border-top: 60px solid rgba(0, 115, 175, 0.6);
+    }
+
+    .web-rating {
+        top: -20px;
+    }
+
+    .talk-fb {
+        padding: 3em 0;
+    }
+
+    .talk-fb hr {
+        top: 15px;
+        max-width: 320px;
+    }
+
+    .talk-fb h3 {
+        font-size: 30px;
+        max-width: 280px;
+    }
+
+
+    /**** Multi Location Page ****/
+
+    .commitment.demand-support .left-side {
+        margin: 0;
+    }
+
+    .commitment.demand-support figure {
+        top: 42px;
+    }
+
+    .commitment.demand-support figure img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .listing-management h2 {
+        font-size: 32px;
+    }
+
+
+    .next-feature h2 {
+        font-size: 30px;
+    }
+
+
+
+
+    footer .footer-logo img {
+        margin: 0 0 10px 0;
+    }
+    footer {
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    /**** Pricing Page ****/
+
+    .slider.slider-horizontal .slider-track {
+        width: 94%;
+    }
+
+
+    /**** Single Location Page ****/
+
+    .access-data h3 {
+        margin: 0 0 10px 0;
+    }
+
+    .try-free .btn-default, .commitment .btn-default,
+    .pricing-sense .btn-default, .on-demand .btn-default,
+    .features-green .btn-default, .features-purple .btn-default {
+        width: 90%;
+    }
+
+    .industry-tools h2 {
+        font-size: 16px;
+    }
+
+    .setup .setup-image-title .image-title {
+        font-size: 15px;
+    }
+
+
+    /**** Agency Page ****/
+
+    .on-demand .right-side figure img {
+        max-width: 310px;
+    }
+
+
+    /**** About Page ****/
+
+    .members-list .member-image-circle img.circle-img {
+        width: 100%;
+    }
+
+    .members-list .team-member {
+        /*width: 100%;*/
+    }
+
+    .flip-container, .front, .back {
+        width: 120px;
+        height: 120px;
+    }
+
+
+    /**** Features Page ****/
+
+    .workflow-synup .left-side .circle {
+        width: 100px;
+        height: 100px;
+        padding-top: 22px;
+    }
+
+    .workflow-synup .left-side h4 {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+
+    /**** Home Page ****/
+
+    .web-rating h3 {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 360px) {
+    body,
+    html {
+        max-width: 360px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    .navbar.navbar-primary.white .navbar-brand, 
+    .navbar.navbar-primary .navbar-brand,
+    .navbar.navbar-primary.affix .navbar-brand {
+        width: 94px;
+        background-size: 85%;
+        left: -5px;
+    }
+
+}
+
+@media only screen and (max-width: 341px) {
+
+}

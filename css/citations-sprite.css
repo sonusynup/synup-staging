@@ -1,0 +1,1012 @@
+.spc {
+  font-size: 18px;
+  line-height: 2;
+}
+.sp1 {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 10px 10px 10px 0;
+  background-color: #eee;
+}
+.sp1.spimg-1 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% 0px;
+}
+.sp1.spimg-2 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -16px;
+}
+.sp1.spimg-3 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -32px;
+}
+.sp1.spimg-4 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -48px;
+}
+.sp1.spimg-5 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -64px;
+}
+.sp1.spimg-6 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -80px;
+}
+.sp1.spimg-7 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -96px;
+}
+.sp1.spimg-8 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -112px;
+}
+.sp1.spimg-9 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -128px;
+}
+.sp1.spimg-10 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -144px;
+}
+.sp1.spimg-11 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -160px;
+}
+.sp1.spimg-12 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -176px;
+}
+.sp1.spimg-13 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -192px;
+}
+.sp1.spimg-14 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -208px;
+}
+.sp1.spimg-15 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -224px;
+}
+.sp1.spimg-16 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -240px;
+}
+.sp1.spimg-17 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -256px;
+}
+.sp1.spimg-18 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -272px;
+}
+.sp1.spimg-19 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -288px;
+}
+.sp1.spimg-20 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -304px;
+}
+.sp1.spimg-21 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -320px;
+}
+.sp1.spimg-22 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -336px;
+}
+.sp1.spimg-23 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -352px;
+}
+.sp1.spimg-24 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -368px;
+}
+.sp1.spimg-25 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -384px;
+}
+.sp1.spimg-26 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -400px;
+}
+.sp1.spimg-27 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -416px;
+}
+.sp1.spimg-28 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -432px;
+}
+.sp1.spimg-29 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -448px;
+}
+.sp1.spimg-30 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -464px;
+}
+.sp1.spimg-31 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -480px;
+}
+.sp1.spimg-32 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -496px;
+}
+.sp1.spimg-33 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -512px;
+}
+.sp1.spimg-34 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -528px;
+}
+.sp1.spimg-35 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -544px;
+}
+.sp1.spimg-36 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -560px;
+}
+.sp1.spimg-37 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -576px;
+}
+.sp1.spimg-38 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -592px;
+}
+.sp1.spimg-39 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -608px;
+}
+.sp1.spimg-40 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -624px;
+}
+.sp1.spimg-41 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -640px;
+}
+.sp1.spimg-42 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -656px;
+}
+.sp1.spimg-43 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -672px;
+}
+.sp1.spimg-44 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -688px;
+}
+.sp1.spimg-45 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -704px;
+}
+.sp1.spimg-46 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -720px;
+}
+.sp1.spimg-47 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -736px;
+}
+.sp1.spimg-48 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -752px;
+}
+.sp1.spimg-49 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -768px;
+}
+.sp1.spimg-50 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -784px;
+}
+.sp1.spimg-51 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -800px;
+}
+.sp1.spimg-52 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -816px;
+}
+.sp1.spimg-53 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -832px;
+}
+.sp1.spimg-54 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -848px;
+}
+.sp1.spimg-55 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -864px;
+}
+.sp1.spimg-56 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -880px;
+}
+.sp1.spimg-57 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -896px;
+}
+.sp1.spimg-58 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -912px;
+}
+.sp1.spimg-59 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -928px;
+}
+.sp1.spimg-60 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -944px;
+}
+.sp1.spimg-61 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -960px;
+}
+.sp1.spimg-62 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -976px;
+}
+.sp1.spimg-63 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -992px;
+}
+.sp1.spimg-64 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1008px;
+}
+.sp1.spimg-65 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1024px;
+}
+.sp1.spimg-66 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1040px;
+}
+.sp1.spimg-67 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1056px;
+}
+.sp1.spimg-68 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1072px;
+}
+.sp1.spimg-69 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1088px;
+}
+.sp1.spimg-70 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1104px;
+}
+.sp1.spimg-71 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1120px;
+}
+.sp1.spimg-72 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1136px;
+}
+.sp1.spimg-73 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1152px;
+}
+.sp1.spimg-74 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1168px;
+}
+.sp1.spimg-75 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1184px;
+}
+.sp1.spimg-76 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1200px;
+}
+.sp1.spimg-77 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1216px;
+}
+.sp1.spimg-78 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1232px;
+}
+.sp1.spimg-79 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1248px;
+}
+.sp1.spimg-80 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1264px;
+}
+.sp1.spimg-81 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1280px;
+}
+.sp1.spimg-82 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1296px;
+}
+.sp1.spimg-83 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1312px;
+}
+.sp1.spimg-84 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1328px;
+}
+.sp1.spimg-85 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1344px;
+}
+.sp1.spimg-86 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1360px;
+}
+.sp1.spimg-87 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1376px;
+}
+.sp1.spimg-88 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1392px;
+}
+.sp1.spimg-89 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1408px;
+}
+.sp1.spimg-90 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1424px;
+}
+.sp1.spimg-91 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1440px;
+}
+.sp1.spimg-92 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1456px;
+}
+.sp1.spimg-93 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1472px;
+}
+.sp1.spimg-94 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1488px;
+}
+.sp1.spimg-95 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1504px;
+}
+.sp1.spimg-96 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1520px;
+}
+.sp1.spimg-97 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1536px;
+}
+.sp1.spimg-98 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1552px;
+}
+.sp1.spimg-99 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1568px;
+}
+.sp1.spimg-100 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1584px;
+}
+.sp1.spimg-101 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1600px;
+}
+.sp1.spimg-102 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1616px;
+}
+.sp1.spimg-103 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1632px;
+}
+.sp1.spimg-104 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1648px;
+}
+.sp1.spimg-105 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1664px;
+}
+.sp1.spimg-106 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1680px;
+}
+.sp1.spimg-107 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1696px;
+}
+.sp1.spimg-108 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1712px;
+}
+.sp1.spimg-109 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1728px;
+}
+.sp1.spimg-110 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1744px;
+}
+.sp1.spimg-111 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1760px;
+}
+.sp1.spimg-112 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1776px;
+}
+.sp1.spimg-113 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1792px;
+}
+.sp1.spimg-114 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1808px;
+}
+.sp1.spimg-115 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1824px;
+}
+.sp1.spimg-116 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1840px;
+}
+.sp1.spimg-117 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1856px;
+}
+.sp1.spimg-118 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1872px;
+}
+.sp1.spimg-119 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1888px;
+}
+.sp1.spimg-120 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1904px;
+}
+.sp1.spimg-121 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1920px;
+}
+.sp1.spimg-122 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1936px;
+}
+.sp1.spimg-123 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1952px;
+}
+.sp1.spimg-124 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1968px;
+}
+.sp1.spimg-125 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -1984px;
+}
+.sp1.spimg-126 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2000px;
+}
+.sp1.spimg-127 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2016px;
+}
+.sp1.spimg-128 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2032px;
+}
+.sp1.spimg-129 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2048px;
+}
+.sp1.spimg-130 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2064px;
+}
+.sp1.spimg-131 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2080px;
+}
+.sp1.spimg-132 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2096px;
+}
+.sp1.spimg-133 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2112px;
+}
+.sp1.spimg-134 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2128px;
+}
+.sp1.spimg-135 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2144px;
+}
+.sp1.spimg-136 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2160px;
+}
+.sp1.spimg-137 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2176px;
+}
+.sp1.spimg-138 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2192px;
+}
+.sp1.spimg-139 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2208px;
+}
+.sp1.spimg-140 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2224px;
+}
+.sp1.spimg-141 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2240px;
+}
+.sp1.spimg-142 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2256px;
+}
+.sp1.spimg-143 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2272px;
+}
+.sp1.spimg-144 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2288px;
+}
+.sp1.spimg-145 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2304px;
+}
+.sp1.spimg-146 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2320px;
+}
+.sp1.spimg-147 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2336px;
+}
+.sp1.spimg-148 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2352px;
+}
+.sp1.spimg-149 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2368px;
+}
+.sp1.spimg-150 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2384px;
+}
+.sp1.spimg-151 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2400px;
+}
+.sp1.spimg-152 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2416px;
+}
+.sp1.spimg-153 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2432px;
+}
+.sp1.spimg-154 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2448px;
+}
+.sp1.spimg-155 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2464px;
+}
+.sp1.spimg-156 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2480px;
+}
+.sp1.spimg-157 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2496px;
+}
+.sp1.spimg-158 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2512px;
+}
+.sp1.spimg-159 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2528px;
+}
+.sp1.spimg-160 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2544px;
+}
+.sp1.spimg-161 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2560px;
+}
+.sp1.spimg-162 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2576px;
+}
+.sp1.spimg-163 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2592px;
+}
+.sp1.spimg-164 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2608px;
+}
+.sp1.spimg-165 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2624px;
+}
+.sp1.spimg-166 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2640px;
+}
+.sp1.spimg-167 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2656px;
+}
+.sp1.spimg-168 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2672px;
+}
+.sp1.spimg-169 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2688px;
+}
+.sp1.spimg-170 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2704px;
+}
+.sp1.spimg-171 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2720px;
+}
+.sp1.spimg-172 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2736px;
+}
+.sp1.spimg-173 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2752px;
+}
+.sp1.spimg-174 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2768px;
+}
+.sp1.spimg-175 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2784px;
+}
+.sp1.spimg-176 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2800px;
+}
+.sp1.spimg-177 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2816px;
+}
+.sp1.spimg-178 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2832px;
+}
+.sp1.spimg-179 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2848px;
+}
+.sp1.spimg-180 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2864px;
+}
+.sp1.spimg-181 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2880px;
+}
+.sp1.spimg-182 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2896px;
+}
+.sp1.spimg-183 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2912px;
+}
+.sp1.spimg-184 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2928px;
+}
+.sp1.spimg-185 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2944px;
+}
+.sp1.spimg-186 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2960px;
+}
+.sp1.spimg-187 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2976px;
+}
+.sp1.spimg-188 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -2992px;
+}
+.sp1.spimg-189 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3008px;
+}
+.sp1.spimg-190 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3024px;
+}
+.sp1.spimg-191 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3040px;
+}
+.sp1.spimg-192 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3056px;
+}
+.sp1.spimg-193 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3072px;
+}
+.sp1.spimg-194 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3088px;
+}
+.sp1.spimg-195 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3104px;
+}
+.sp1.spimg-196 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3120px;
+}
+.sp1.spimg-197 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3136px;
+}
+.sp1.spimg-198 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3152px;
+}
+.sp1.spimg-199 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3168px;
+}
+.sp1.spimg-200 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3184px;
+}
+.sp1.spimg-201 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3200px;
+}
+.sp1.spimg-202 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3216px;
+}
+.sp1.spimg-203 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3232px;
+}
+.sp1.spimg-204 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3248px;
+}
+.sp1.spimg-205 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3264px;
+}
+.sp1.spimg-206 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3280px;
+}
+.sp1.spimg-207 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3296px;
+}
+.sp1.spimg-208 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3312px;
+}
+.sp1.spimg-209 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3328px;
+}
+.sp1.spimg-210 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3344px;
+}
+.sp1.spimg-211 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3360px;
+}
+.sp1.spimg-212 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3376px;
+}
+.sp1.spimg-213 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3392px;
+}
+.sp1.spimg-214 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3408px;
+}
+.sp1.spimg-215 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3424px;
+}
+.sp1.spimg-216 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3440px;
+}
+.sp1.spimg-217 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3456px;
+}
+.sp1.spimg-218 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3472px;
+}
+.sp1.spimg-219 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3488px;
+}
+.sp1.spimg-220 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3504px;
+}
+.sp1.spimg-221 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3520px;
+}
+.sp1.spimg-222 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3536px;
+}
+.sp1.spimg-223 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3552px;
+}
+.sp1.spimg-224 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3568px;
+}
+.sp1.spimg-225 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3584px;
+}
+.sp1.spimg-226 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3600px;
+}
+.sp1.spimg-227 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3616px;
+}
+.sp1.spimg-228 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3632px;
+}
+.sp1.spimg-229 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3648px;
+}
+.sp1.spimg-230 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3664px;
+}
+.sp1.spimg-231 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3680px;
+}
+.sp1.spimg-232 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3696px;
+}
+.sp1.spimg-233 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3712px;
+}
+.sp1.spimg-234 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3728px;
+}
+.sp1.spimg-235 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3744px;
+}
+.sp1.spimg-236 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3760px;
+}
+.sp1.spimg-237 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3776px;
+}
+.sp1.spimg-238 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3792px;
+}
+.sp1.spimg-239 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3808px;
+}
+.sp1.spimg-240 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3824px;
+}
+.sp1.spimg-241 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3840px;
+}
+.sp1.spimg-242 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3856px;
+}
+.sp1.spimg-243 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3872px;
+}
+.sp1.spimg-244 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3888px;
+}
+.sp1.spimg-245 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3904px;
+}
+.sp1.spimg-246 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3920px;
+}
+.sp1.spimg-247 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3936px;
+}
+.sp1.spimg-248 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3952px;
+}
+.sp1.spimg-249 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3968px;
+}
+.sp1.spimg-250 {
+  background: url(/images/citations-sprite.png) #fff top no-repeat;
+  background-position: 0% -3984px;
+}

@@ -1,0 +1,101 @@
+/* =Smartphones (portrait and landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.price-table {
+		margin-top: 3em;
+	}
+}
+ 
+/* =Smartphones (landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-width : 321px) {
+	.price-table {
+		margin-top: 3em;
+	}
+}
+ 
+/* =Smartphones (portrait)
+--------------------------------------------------------------------------- */
+@media only screen
+and (max-width : 320px) {
+  .price-table {
+		margin-top: 3em;
+	}
+}
+ 
+/* =iPads (portrait and landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	.price-table {
+		margin-top: 3em;
+	}
+}
+ 
+/* =iPads (landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.price-table {
+		margin-top: 3em;
+	}
+}
+ 
+/* =iPads (portrait)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.price-table {
+		margin-top: 3em;
+	}
+}
+ 
+/* =Desktops and laptops
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-width : 1224px) {
+
+	.cta-box {
+		position: absolute;
+		bottom: 2%;
+		width: 90%;
+	}
+
+	.details-box {
+		min-height: 1000px;
+	}
+
+}
+ 
+/* =Large screens
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-width : 1824px) {
+
+	.cta-box {
+		position: absolute;
+		bottom: 2%;
+		width: 90%;
+	}
+
+	.details-box {
+		min-height: 2400px;
+	}
+
+}
+ 
+/* =iPhone 4
+--------------------------------------------------------------------------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+}

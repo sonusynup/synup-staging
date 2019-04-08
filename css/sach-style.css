@@ -1,0 +1,145 @@
+#banner {
+	padding: 15em 0em;
+	background-image: url('../images/pricing-header.png');
+	background-size: cover;
+}
+
+#banner h1 {
+	text-align: center;
+	color: #FEFEFE;
+	font-size: 4em !important;
+}
+
+#banner h2 {
+	text-align: center;
+	color: #FAFAFA;
+	font-size: 2em;
+}
+
+#pricing-tables {
+	margin: 6em 3em;
+}
+
+#pricing-tables img {
+	height: 8em;
+}
+
+.img-row {
+	text-align: center;
+}
+
+
+.details-box {
+	background-color: #FAFAFA;
+	padding: 2em;
+    margin-top: 2em;
+    border-radius: 6px;
+}
+
+
+.price-box {
+	padding: 1em;
+	text-align: center;
+	background-color: #DBE7F5;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 6px;
+}
+
+.price-box h2 {
+	font-size: 3em;
+}
+
+.small-text {
+	font-weight: normal;
+}
+
+.features-box {
+	margin-top: 2em;
+    padding: 1.2em;
+}
+
+.enterprise-list {
+	color: #a5b1c2;
+}
+
+.features-list li {
+	margin-bottom: 5px;
+}
+
+.list-text {
+	font-size: 1.2em;
+    margin-left: 0.5em;
+}
+
+.check-mark {
+	height: 1em !important;
+	vertical-align: text-bottom;
+}
+
+.cta-link {
+	color: #FEFEFE;
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.cta-link:hover {
+	color: #FAFAFA;
+}
+
+.scan-cta-link {
+	color: #303030;
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.button-box {
+	background-color: #4F90FF;
+	margin: 2em 2em 0em;
+	text-align: center;
+	padding: 1em;
+	border-radius: 4px;
+}
+
+.button-box:hover {
+	background-color: #3C83FF; 
+}
+
+.scan-button {
+	background-color: #D9E7F7;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	padding: 1em;
+	border-radius: 4px;
+}
+
+#test-drive {
+	background-color: #FFFFFF;
+	padding: 4em;
+}
+
+.test-drive-box {
+	background-color: #FAFAFA;
+    margin: 3em auto;
+    padding: 2em;
+    border: 2px solid #D7E7F9;
+    border-radius: 8px;
+}
+
+#pricing-faqs {
+	margin-top: 5em;
+	margin-bottom: 8em;
+}
+
+#pricing-faqs p {
+	font-size: 1.4em;
+}
+
+.faq-box {
+	margin: 1em 0em;
+}
